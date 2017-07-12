@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/newsItemStyle">
+
+    <LinearLayout
+        style="@style/newsHeaderStyle">
+
+        <LinearLayout
+            style="@style/dateLayout">
+
+            <TextView
+                style="@style/dateStyle"
+                android:id="@+id/date" />
+
+            <TextView
+                style="@style/dateStyle"
+                android:id="@+id/time" />
+
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/categoryStyle"
+            android:id="@+id/category" />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/titleStyle"
+        android:id="@+id/title" />
+
+    <TextView
+        style="@style/authorStyle"
+        android:id="@+id/author" />
+
+</LinearLayout>
